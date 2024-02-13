@@ -8,12 +8,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+//uses enum for simplicity
 typedef enum faction {
 
 	red, blue, green
 
 }FACTION;
 
+//structure of our user, with a name, int, and a faction
 typedef struct user {
 
 	char name[MAXNAME];
